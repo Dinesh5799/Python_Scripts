@@ -1,0 +1,8 @@
+Linkedin_Helper
+
+This python script reads the profile URLS from a CSV file and sends requests to those who are not connected to you on LinkedIn.
+
+Note:- 1.)Place the chrome driver in the mentioned path or provide the path to program where chrome driver is present.
+2.) Before running the script provide your Linkedin credentials accordingly.
+
+The CSV file is fetched using PhantomBuster api(Fetches all the profile details who has commented on a post)(https://phantombuster.com).
