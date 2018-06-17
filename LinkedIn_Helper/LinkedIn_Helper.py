@@ -77,7 +77,7 @@ try:
     password = input('Enter pass: ')
     #password = ''
     print('No Problem With User Credentials')#chromedriver.exe
-    browser = webdriver.Chrome(executable_path=r"C:/Users/KIT9059/Desktop/chromedriver.exe")
+    browser = webdriver.Chrome(executable_path=r"C:/chromedriver.exe")
     print('Found Chrome Driver')
     browser.get('https://www.linkedin.com/')
     time.sleep(2)
