@@ -64,7 +64,7 @@ try:
         data = csv.reader(fn, delimiter=',')
         for row in data:
             #print(row[0])
-            if not 'url' in row[0]
+            if not 'url' in row[0]:
                 profile_links.append(row[0])
     fn.close()
     print(profile_links)
